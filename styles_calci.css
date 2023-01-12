@@ -11,7 +11,7 @@ html {
   
   .calculator {
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 11px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -23,7 +23,8 @@ html {
     width: 100%;
     font-size: 5rem;
     height: 80px;
-    border: none;
+    border-top-left-radius:11px;
+    border-top-right-radius:11px;
     background-color: #252525;
     color: #fff;
     text-align: right;
